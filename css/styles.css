@@ -10171,6 +10171,7 @@ img::-moz-selection {
     color: #fff;
     margin-right: 1rem;
   }
+  
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
@@ -10188,6 +10189,13 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
+@media (max-width: 768px) {
+  header.masthead {
+    max-height: initial !important;
+  }
+}
+
 header.masthead .vertical-center {
   min-height: 100%;
   display: flex;
@@ -10197,6 +10205,12 @@ header.masthead .vertical-center {
 header.masthead .masthead-top-spacer{
   padding-top: 18vh;
   padding-bottom: 12vh;
+}
+@media (max-width: 768px) {
+  header.masthead .masthead-top-spacer {
+    padding-top: 14vh;
+    padding-bottom: 2.5vh;
+  }
 }
 
 header.masthead .masthead-subheading {
@@ -10294,7 +10308,7 @@ section#contact .vertical-center {
   position: relative;
   width: 100%;
   height: 33vh;
-  background-image: url(../assets/img/amber_playing_flappybird.jpeg);
+  background-image: url(../assets/img/amber_playing_flappybird.jpg);
   background-attachment: fixed;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -10308,24 +10322,3 @@ section#contact .vertical-center {
     height: 100%;
     background: rgba(57, 67, 78, 0.644);
   }
-
-
-  .parallax2{
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 30vh;
-    background-image: url(../assets/img/traffic2.jpg);
-    background-attachment: fixed;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    }
-
-    .parallax2 .parallax-bg{
-      width: 100%;
-      height: 100%;
-      background: rgba(57, 67, 77, 0.74);
-    }
