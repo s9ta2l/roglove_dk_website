@@ -10307,8 +10307,8 @@ section#contact .vertical-center {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 33vh;
-  background-image: url(../assets/img/amber_playing_flappybird.jpg);
+  height: 37vh;
+  background-image: url(../assets/img/roglove_outreach_collage.jpg);
   background-attachment: fixed;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -10322,3 +10322,23 @@ section#contact .vertical-center {
     height: 100%;
     background: rgba(57, 67, 78, 0.644);
   }
+
+  .parallax2{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 37vh;
+    background-image: url(../assets/img/roglove_outreach_collage.jpg);
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    }
+  
+    .parallax2 .parallax-bg{
+      width: 100%;
+      height: 100%;
+      background: rgba(57, 67, 78, 0.644);
+    }
