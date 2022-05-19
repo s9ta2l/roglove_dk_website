@@ -10062,6 +10062,10 @@ p {
   margin-bottom: 4rem;
 }
 
+.advisor-container {
+  display: none;
+}
+
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
